@@ -1,1 +1,17 @@
+name: First Workflow
+on: workflow_dispatch
+jobs: 
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Greet
+        run: echo "Hello World"
+      - name: Print bye
+        run: |
+             echo "bye-bye"
+             echo "bye-by-by"
+             echo "bye-bye-by-by"- name: Checkout
+             - name: Checkout
+             uses: actions/checkout@v4.1.1
+         
 

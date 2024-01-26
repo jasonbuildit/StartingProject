@@ -10,8 +10,8 @@ jobs:
         run: |
              echo "bye-bye"
              echo "bye-by-by"
-             echo "bye-bye-by-by"- name: Checkout
-             - name: Checkout
-             uses: actions/checkout@v4.1.1
+             echo "bye-bye-by-by"
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
          
 

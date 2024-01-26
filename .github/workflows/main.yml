@@ -18,7 +18,9 @@ jobs:
         with:
           node-version: 18
       - name : Install dependencies
-        run: npm ci | npm audit fix
+        run: npm ci 
+      - name : Install dependencies2
+        run: npm audit fix
       
          
 
